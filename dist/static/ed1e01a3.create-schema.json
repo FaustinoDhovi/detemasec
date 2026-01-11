@@ -1,0 +1,361 @@
+[
+  {
+    "fields": [
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "fullName",
+        "type": "string"
+      },
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "description": "The unique ID used for portal login (e.g., DET-2026-001)",
+        "name": "studentId",
+        "type": "string",
+        "title": "Student ID"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "Form 1",
+              "value": "f1"
+            },
+            {
+              "title": "Form 2",
+              "value": "f2"
+            },
+            {
+              "title": "Form 3",
+              "value": "f3"
+            },
+            {
+              "title": "Form 4",
+              "value": "f4"
+            }
+          ]
+        },
+        "name": "grade",
+        "type": "string",
+        "title": "Grade / Class"
+      },
+      {
+        "initialValue": "active",
+        "options": {
+          "list": [
+            {
+              "title": "Active",
+              "value": "active"
+            },
+            {
+              "title": "Graduated",
+              "value": "graduated"
+            },
+            {
+              "title": "Withdrawn",
+              "value": "withdrawn"
+            }
+          ]
+        },
+        "name": "status",
+        "type": "string",
+        "title": "Enrollment Status"
+      }
+    ],
+    "name": "student",
+    "type": "document"
+  },
+  {
+    "fields": [
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "description": "Unique transaction identifier (e.g., TXN20240001)",
+        "name": "transactionId",
+        "type": "string",
+        "title": "Transaction ID"
+      },
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "to": [
+          {
+            "type": "student"
+          }
+        ],
+        "name": "student",
+        "type": "reference"
+      },
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "transactionDate",
+        "type": "datetime"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "Payment Received",
+              "value": "payment"
+            },
+            {
+              "title": "Fee Charge",
+              "value": "charge"
+            },
+            {
+              "title": "Refund",
+              "value": "refund"
+            },
+            {
+              "title": "Adjustment",
+              "value": "adjustment"
+            },
+            {
+              "title": "Waiver",
+              "value": "waiver"
+            }
+          ]
+        },
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "valid",
+                "constraint": [
+                  "payment",
+                  "charge",
+                  "refund",
+                  "adjustment",
+                  "waiver"
+                ]
+              },
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "transactionType",
+        "type": "string"
+      },
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              },
+              {
+                "flag": "min",
+                "constraint": 0
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "amount",
+        "type": "number"
+      },
+      {
+        "to": [
+          {
+            "type": "paymentMethod"
+          }
+        ],
+        "name": "paymentMethod",
+        "type": "reference"
+      },
+      {
+        "name": "receiptNumber",
+        "type": "string"
+      },
+      {
+        "rows": 2,
+        "name": "description",
+        "type": "text"
+      },
+      {
+        "to": [
+          {
+            "type": "academicYear"
+          }
+        ],
+        "name": "academicYear",
+        "type": "reference"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "Semester 1",
+              "value": "sem1"
+            },
+            {
+              "title": "Semester 2",
+              "value": "sem2"
+            },
+            {
+              "title": "Full Year",
+              "value": "full"
+            }
+          ]
+        },
+        "name": "semester",
+        "type": "string"
+      },
+      {
+        "initialValue": false,
+        "name": "verified",
+        "type": "boolean"
+      }
+    ],
+    "name": "feeTransaction",
+    "type": "document"
+  },
+  {
+    "fields": [
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "description": "e.g., 2023-2024",
+        "name": "year",
+        "type": "string",
+        "title": "Academic Year"
+      },
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "startDate",
+        "type": "date"
+      },
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "endDate",
+        "type": "date"
+      },
+      {
+        "name": "tuitionFee",
+        "type": "number",
+        "title": "Standard Tuition Fee"
+      },
+      {
+        "initialValue": false,
+        "name": "active",
+        "type": "boolean",
+        "title": "Active Academic Year"
+      }
+    ],
+    "name": "academicYear",
+    "type": "document"
+  },
+  {
+    "fields": [
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "method",
+        "type": "string",
+        "title": "Payment Method"
+      },
+      {
+        "rows": 2,
+        "name": "description",
+        "type": "text"
+      },
+      {
+        "initialValue": true,
+        "name": "active",
+        "type": "boolean"
+      }
+    ],
+    "name": "paymentMethod",
+    "type": "document"
+  }
+]

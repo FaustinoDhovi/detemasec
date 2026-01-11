@@ -1,32 +1,20 @@
-/**
- * This configuration is used for the Sanity Studio that's mounted on the `\src\app\studio\[[...index]]\page.tsx` route
- */
-
-import { visionTool } from '@sanity/vision'
+// C:\Users\Fau\Desktop\Websites\detema-official\sanity.config.ts - FIXED
 import { defineConfig } from 'sanity'
 import { structureTool } from 'sanity/structure'
-
-// Get environment variables
-const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!
-const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET || 'production'
-const apiVersion = process.env.NEXT_PUBLIC_SANITY_API_VERSION || '2024-01-01'
-
-// If you want to use separate schema and structure files, you need to create them first
-// For now, let's use a basic inline setup
+import { visionTool } from '@sanity/vision'
+import { schema } from './src/sanity/schemaTypes'  // FIXED: correct path
 
 export default defineConfig({
-  basePath: '/studio',
-  projectId,
-  dataset,
-  apiVersion,
-  
-  // Start with empty schemas - we'll add them later
-  schema: {
-    types: [],
-  },
-  
+  name: 'default',
+  title: 'Detema_Sec',
+
+  projectId: 'ga7bqmvx',
+  dataset: 'production',
+
   plugins: [
-    structureTool(),
-    visionTool({ defaultApiVersion: apiVersion }),
+    structureTool(), // This should now work
+    visionTool()
   ],
+
+  schema: schema,
 })
