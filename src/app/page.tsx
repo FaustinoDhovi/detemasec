@@ -106,22 +106,12 @@ export default function Home() {
       <header className="sticky top-0 z-50 backdrop-blur-lg bg-white/90 border-b">
         <div className="container mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-3">
-              <div className="relative w-10 h-10 rounded-lg overflow-hidden border border-blue-600">
-                <Image
-                  src="/logo.png"
-                  alt="Detema Secondary School Logo"
-                  fill
-                  className="object-cover"
-                  priority
-                />
-              </div>
-              <div>
-                <h1 className="text-xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
-                  Detema Secondary School
-                </h1>
-                <p className="text-xs text-gray-600">Excellence in Secondary Education</p>
-              </div>
+            {/* LOGO REMOVED FROM HEADER - TEXT ONLY */}
+            <div className="flex flex-col">
+              <h1 className="text-xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
+                Detema Secondary School
+              </h1>
+              <p className="text-xs text-gray-600">Excellence in Secondary Education</p>
             </div>
 
             <nav className="hidden md:flex items-center space-x-6">
@@ -137,10 +127,13 @@ export default function Home() {
               <Link href="/portal" className="text-gray-700 hover:text-blue-600 transition-colors">
                 Portal
               </Link>
+              
+              {/* BUTTON 1: FEES IN HEADER */}
               <Link href="/fees" className="text-gray-700 hover:text-blue-600 transition-colors flex items-center space-x-1">
                 <CreditCard className="h-4 w-4" />
                 <span>Fees</span>
               </Link>
+
               <Link 
                 href="/register" 
                 className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-2 rounded-lg hover:shadow-lg transition-all"
@@ -193,17 +186,18 @@ export default function Home() {
                   <span>Start Application</span>
                   <ChevronRight className="h-5 w-5" />
                 </Link>
+                {/* REMOVED: Pay Fees Button. Replaced with Contact */}
                 <Link 
-                  href="/fees" 
+                  href="/contact" 
                   className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-bold hover:bg-white/10 transition-all flex items-center justify-center space-x-2"
                 >
-                  <CreditCard className="h-5 w-5" />
-                  <span>Pay Fees</span>
+                  <Phone className="h-5 w-5" />
+                  <span>Contact Us</span>
                 </Link>
               </div>
             </div>
 
-            {/* Large Logo with Motto */}
+            {/* Large Logo with Motto - KEPT */}
             <div className="flex justify-center lg:justify-end">
               <div className="relative w-full max-w-md bg-white/10 backdrop-blur-md rounded-3xl p-8 border-2 border-white/20 shadow-2xl transform hover:scale-[1.02] transition-all duration-300">
                 <div className="relative w-full aspect-square rounded-2xl overflow-hidden bg-white p-6 shadow-lg">
@@ -252,7 +246,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Quick Actions Section with Fees Highlight */}
+      {/* Quick Actions Section */}
       <section className="py-12 bg-gradient-to-r from-blue-50 to-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
@@ -262,16 +256,16 @@ export default function Home() {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <Link 
-              href="/fees" 
+              href="/calendar" 
               className="bg-white p-6 rounded-2xl border border-gray-200 shadow-sm hover:shadow-xl transition-all hover:-translate-y-2 group"
             >
               <div className="flex items-center space-x-4">
-                <div className="bg-blue-100 p-3 rounded-xl group-hover:scale-110 transition-transform">
-                  <CreditCard className="h-8 w-8 text-blue-600" />
+                <div className="bg-orange-100 p-3 rounded-xl group-hover:scale-110 transition-transform">
+                  <Calendar className="h-8 w-8 text-orange-600" />
                 </div>
                 <div className="text-left">
-                  <h3 className="font-bold text-gray-900">Fees Payment</h3>
-                  <p className="text-sm text-gray-600">Check balance & pay fees</p>
+                  <h3 className="font-bold text-gray-900">Academic Calendar</h3>
+                  <p className="text-sm text-gray-600">Term dates & holidays</p>
                 </div>
               </div>
             </Link>
@@ -370,7 +364,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* News & Events Section with Images */}
+      {/* News & Events Section */}
       <section className="py-20 bg-gradient-to-br from-blue-50 to-gray-50">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between mb-12">
@@ -379,13 +373,6 @@ export default function Home() {
               <p className="text-gray-600 mt-2">Latest happenings at our school</p>
             </div>
             <div className="flex items-center space-x-4">
-              <Link 
-                href="/fees" 
-                className="flex items-center space-x-2 text-blue-700 font-semibold hover:text-blue-600"
-              >
-                <CreditCard className="h-5 w-5" />
-                <span>Fee Updates</span>
-              </Link>
               <Link 
                 href="/gallery" 
                 className="flex items-center space-x-2 text-blue-700 font-semibold hover:text-blue-600"
@@ -402,7 +389,6 @@ export default function Home() {
                 key={index} 
                 className="bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-xl transition-all hover:-translate-y-2 group"
               >
-                {/* Event Image */}
                 {item.image && (
                   <div className="h-48 overflow-hidden">
                     <img
@@ -434,10 +420,10 @@ export default function Home() {
                     </Link>
                     {item.category === "Admissions" && (
                       <Link 
-                        href="/fees" 
-                        className="text-sm text-gray-600 hover:text-blue-700"
+                        href="/register" 
+                        className="text-sm text-blue-700 hover:text-blue-900 font-bold"
                       >
-                        Fee Details →
+                        Apply &rarr;
                       </Link>
                     )}
                   </div>
@@ -490,7 +476,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA Section with Fees Emphasis */}
+      {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-blue-600 to-blue-800">
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto">
@@ -501,7 +487,7 @@ export default function Home() {
                 </h2>
                 <p className="text-xl text-blue-100 mb-8">
                   Applications for Form 1 and other forms are now open for the 2026 academic year.
-                  Check our fee structure and payment options.
+                  Join a community dedicated to discipline and academic excellence.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Link 
@@ -510,13 +496,6 @@ export default function Home() {
                   >
                     <span>Apply Now</span>
                     <ChevronRight className="h-5 w-5" />
-                  </Link>
-                  <Link 
-                    href="/fees" 
-                    className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-bold hover:bg-white/10 transition-all flex items-center justify-center space-x-2"
-                  >
-                    <CreditCard className="h-5 w-5" />
-                    <span>View Fee Structure</span>
                   </Link>
                   <Link 
                     href="/portal" 
@@ -528,32 +507,20 @@ export default function Home() {
                 </div>
               </div>
               
-              {/* Fees Information Card */}
-              <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border-2 border-white/30">
-                <div className="flex items-center space-x-3 mb-4">
-                  <CreditCard className="h-8 w-8 text-yellow-300" />
-                  <h3 className="text-xl font-bold text-white">Fee Information</h3>
+              <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border-2 border-white/30 text-center">
+                 <Target className="h-12 w-12 text-yellow-300 mx-auto mb-4" />
+                <h3 className="text-2xl font-bold text-white mb-4">Our Vision</h3>
+                <p className="text-blue-100 italic mb-6">
+                  "To be the leading center of academic excellence and moral character development in the region."
+                </p>
+                <div className="bg-white/10 p-4 rounded-lg">
+                    <p className="text-sm text-blue-200 uppercase tracking-wide">Core Values</p>
+                    <div className="flex flex-wrap justify-center gap-2 mt-2">
+                        <span className="bg-white/20 px-3 py-1 rounded-full text-xs text-white">Integrity</span>
+                        <span className="bg-white/20 px-3 py-1 rounded-full text-xs text-white">Respect</span>
+                        <span className="bg-white/20 px-3 py-1 rounded-full text-xs text-white">Discipline</span>
+                    </div>
                 </div>
-                <div className="space-y-3">
-                  <div className="bg-white/10 p-3 rounded-lg">
-                    <p className="text-sm text-blue-200">Form 1-4 (per term)</p>
-                    <p className="text-2xl font-bold text-white">$70.00</p>
-                  </div>
-                  <div className="bg-white/10 p-3 rounded-lg">
-                    <p className="text-sm text-blue-200">Form 5-6 (per term)</p>
-                    <p className="text-2xl font-bold text-white">$85.00</p>
-                  </div>
-                  <div className="bg-white/10 p-3 rounded-lg">
-                    <p className="text-sm text-blue-200">Payment Methods</p>
-                    <p className="text-sm text-white">EcoCash, Bank Transfer, Cash</p>
-                  </div>
-                </div>
-                <Link 
-                  href="/fees" 
-                  className="mt-6 block w-full bg-white text-blue-700 py-3 rounded-lg font-bold text-center hover:bg-blue-50 transition-colors"
-                >
-                  Check Balance & Pay
-                </Link>
               </div>
             </div>
           </div>
@@ -564,21 +531,10 @@ export default function Home() {
       <footer className="bg-gray-900 text-white">
         <div className="container mx-auto px-4 py-12">
           <div className="grid md:grid-cols-4 gap-8">
+            {/* REMOVED LOGO FROM FOOTER GRID */}
             <div>
-              <div className="flex items-center space-x-3 mb-6">
-                <div className="relative w-14 h-14 rounded-lg overflow-hidden border-2 border-white">
-                  <Image
-                    src="/logo.png"
-                    alt="Detema Secondary School Logo"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <div>
-                  <h3 className="text-xl font-bold">Detema Secondary School</h3>
-                  <p className="text-sm text-gray-400">Established 1984</p>
-                </div>
-              </div>
+              <h3 className="text-2xl font-bold mb-2 text-white">Detema Secondary School</h3>
+              <p className="text-sm text-gray-400 mb-6">Established 1984</p>
               <p className="text-gray-400">
                 A leading secondary school in Dete, Zimbabwe, providing quality education 
                 to Forms 1-6 students for over 40 years.
@@ -588,14 +544,13 @@ export default function Home() {
             <div>
               <h4 className="text-lg font-bold mb-6">Quick Links</h4>
               <ul className="space-y-3">
-                {["About Us", "Gallery", "Admissions", "Student Portal", "Fees", "Contact"].map((link) => (
+                {["About Us", "Gallery", "Admissions", "Student Portal"].map((link) => (
                   <li key={link}>
                     <Link 
                       href={`/${link.toLowerCase().replace(' ', '-').replace('student-portal', 'portal')}`} 
-                      className="text-gray-400 hover:text-white transition-colors flex items-center space-x-2"
+                      className="text-gray-400 hover:text-white transition-colors"
                     >
-                      {link === "Fees" && <CreditCard className="h-4 w-4" />}
-                      <span>{link}</span>
+                      {link}
                     </Link>
                   </li>
                 ))}
@@ -605,10 +560,10 @@ export default function Home() {
             <div>
               <h4 className="text-lg font-bold mb-6">Resources</h4>
               <ul className="space-y-3">
-                {["Fee Structure", "Academic Calendar", "School Rules", "Downloads", "FAQs", "Career Guidance"].map((link) => (
+                {["Academic Calendar", "School Rules", "Downloads", "FAQs", "Career Guidance"].map((link) => (
                   <li key={link}>
                     <Link 
-                      href={link === "Fee Structure" ? "/fees" : "/portal"} 
+                      href={link === "Academic Calendar" ? "/calendar" : "/portal"} 
                       className="text-gray-400 hover:text-white transition-colors"
                     >
                       {link}
@@ -643,6 +598,7 @@ export default function Home() {
 
           <div className="border-t border-gray-800 mt-12 pt-8 text-center">
             <div className="flex flex-col items-center space-y-4">
+              {/* KEPT LOGO AT BOTTOM CENTER */}
               <div className="relative w-24 h-24">
                 <Image
                   src="/logo.png"
@@ -656,17 +612,18 @@ export default function Home() {
                   © {new Date().getFullYear()} Detema Secondary School. All rights reserved.
                 </p>
                 <p className="text-lg text-yellow-300 italic font-bold mt-2">"Excellence in Education"</p>
-                <div className="mt-4 flex justify-center space-x-6">
-                  <Link href="/fees" className="text-blue-400 hover:text-blue-300 text-sm font-medium">
-                    📋 Fee Structure
-                  </Link>
-                  <Link href="/register" className="text-blue-400 hover:text-blue-300 text-sm font-medium">
-                    📝 Apply Online
-                  </Link>
-                  <Link href="/gallery" className="text-blue-400 hover:text-blue-300 text-sm font-medium">
-                    📸 School Events
-                  </Link>
+                
+                {/* BUTTON 2: FEES IN FOOTER */}
+                <div className="mt-6">
+                    <Link 
+                    href="/fees" 
+                    className="inline-flex items-center space-x-2 bg-gray-800 hover:bg-gray-700 text-white px-6 py-2 rounded-full border border-gray-600 transition-colors"
+                    >
+                    <CreditCard className="h-4 w-4" />
+                    <span>Fee Structure</span>
+                    </Link>
                 </div>
+
                 <p className="text-sm text-gray-500 mt-4">
                   "Education is the most powerful weapon which you can use to change the world." — Nelson Mandela
                 </p>
