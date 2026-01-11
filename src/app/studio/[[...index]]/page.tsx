@@ -1,9 +1,7 @@
-// src/app/studio/[[...index]]/page.tsx - FIXED
-import { NextStudio } from 'next-sanity/studio'
-import config from 'sanity.config'
-export const dynamic = 'force-static'
+'use client'
 
-export { metadata, viewport } from 'next-sanity/studio'
+import { NextStudio } from 'next-sanity/studio'
+import config from '../../../sanity/sanity.config'
 
 export default function StudioPage() {
   return <NextStudio config={config} />
