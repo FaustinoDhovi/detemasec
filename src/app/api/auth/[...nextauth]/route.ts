@@ -1,40 +1,79 @@
 import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
-import { client } from '@/app/sanity/client';
+import { client } from '@/sanity/lib/client';  // CORRECT PATH
 import bcrypt from 'bcryptjs';
 
 export const authOptions = {
   providers: [
     CredentialsProvider({
-      name: "Credentials",
+      name: "credentials",
       credentials: {
-        fullName: { label: "Full Name", type: "text" },
-        schoolId: { label: "School ID", type: "text" }
+        studentId: { label: "Student ID", type: "text" },
+        password: { label: "Password", type: "password" }
       },
       async authorize(credentials) {
-        if (!credentials) return null;
+        if (!credentials?.studentId || !credentials?.password) {
+          return null;
+        }
+
+        // Query student from Sanity
+        const query = `*[_type == "student" && studentId == $studentId][0]{
+          _id,
+          studentId,
+          fullName,
+          email,
+          portalPassword
+        }`;
         
-        const query = `*[_type == "student" && schoolId == $schoolId][0]`;
-        const user = await client.fetch(query, { 
-          schoolId: credentials.schoolId 
+        const student = await client.fetch(query, { 
+          studentId: credentials.studentId 
         });
 
-        if (user && 
-            user.fullName.toLowerCase() === credentials.fullName.toLowerCase() &&
-            await bcrypt.compare(credentials.schoolId, user.password)) {
-          return { 
-            id: user._id, 
-            name: user.fullName, 
-            email: user.schoolId 
-          };
+        if (!student || !student.portalPassword) {
+          return null;
         }
-        return null;
+
+        // Compare passwords (you should hash passwords in Sanity)
+        const isValid = await bcrypt.compare(
+          credentials.password, 
+          student.portalPassword
+        );
+
+        if (!isValid) {
+          return null;
+        }
+
+        return {
+          id: student._id,
+          studentId: student.studentId,
+          name: student.fullName,
+          email: student.email
+        };
       }
     })
   ],
-  session: { strategy: "jwt" },
-  pages: { signIn: '/portal' },
-  secret: process.env.NEXTAUTH_SECRET,
+  callbacks: {
+    async jwt({ token, user }) {
+      if (user) {
+        token.studentId = user.studentId;
+      }
+      return token;
+    },
+    async session({ session, token }) {
+      if (session?.user) {
+        session.user.studentId = token.studentId;
+      }
+      return session;
+    }
+  },
+  pages: {
+    signIn: '/portal/login',
+    error: '/portal/login'
+  },
+  session: {
+    strategy: "jwt"
+  },
+  secret: process.env.NEXTAUTH_SECRET
 };
 
 const handler = NextAuth(authOptions);
