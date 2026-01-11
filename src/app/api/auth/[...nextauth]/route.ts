@@ -1,9 +1,9 @@
-import NextAuth from "next-auth";
+import NextAuth, { NextAuthOptions } from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
-import { client } from '@/sanity/lib/client';  // CORRECT PATH
+import { client } from '@/sanity/lib/client';
 import bcrypt from 'bcryptjs';
 
-export const authOptions = {
+export const authOptions: NextAuthOptions = {
   providers: [
     CredentialsProvider({
       name: "credentials",
@@ -11,7 +11,7 @@ export const authOptions = {
         studentId: { label: "Student ID", type: "text" },
         password: { label: "Password", type: "password" }
       },
-      async authorize(credentials) {
+      async authorize(credentials: any) {
         if (!credentials?.studentId || !credentials?.password) {
           return null;
         }
@@ -33,7 +33,7 @@ export const authOptions = {
           return null;
         }
 
-        // Compare passwords (you should hash passwords in Sanity)
+        // Compare passwords
         const isValid = await bcrypt.compare(
           credentials.password, 
           student.portalPassword
@@ -53,15 +53,15 @@ export const authOptions = {
     })
   ],
   callbacks: {
-    async jwt({ token, user }) {
+    async jwt({ token, user }: any) {
       if (user) {
         token.studentId = user.studentId;
       }
       return token;
     },
-    async session({ session, token }) {
+    async session({ session, token }: any) {
       if (session?.user) {
-        session.user.studentId = token.studentId;
+        (session.user as any).studentId = token.studentId;
       }
       return session;
     }
