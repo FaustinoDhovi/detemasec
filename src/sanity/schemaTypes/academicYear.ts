@@ -1,49 +1,52 @@
 export default {
   name: 'academicYear',
-  title: 'Academic Year',
+  title: 'Academic Year & Terms',
   type: 'document',
   fields: [
     {
       name: 'year',
       title: 'Academic Year',
       type: 'string',
-      description: 'e.g., 2023-2024',
+      description: 'e.g., 2026',
       validation: (Rule: any) => Rule.required(),
     },
     {
-      name: 'startDate',
-      title: 'Start Date',
-      type: 'date',
-      validation: (Rule: any) => Rule.required(),
-    },
-    {
-      name: 'endDate',
-      title: 'End Date',
-      type: 'date',
+      name: 'term',
+      title: 'Current Term',
+      type: 'string',
+      options: {
+        list: [
+          { title: 'Term 1', value: 'term1' },
+          { title: 'Term 2', value: 'term2' },
+          { title: 'Term 3', value: 'term3' },
+        ],
+      },
       validation: (Rule: any) => Rule.required(),
     },
     {
       name: 'tuitionFee',
-      title: 'Standard Tuition Fee',
+      title: 'Standard Tuition Fee ($)',
       type: 'number',
+      initialValue: 75,
+      validation: (Rule: any) => Rule.required(),
     },
     {
       name: 'active',
-      title: 'Active Academic Year',
+      title: 'Is this the Current Active Term?',
       type: 'boolean',
       initialValue: false,
     },
   ],
   preview: {
     select: {
-      title: 'year',
-      subtitle: 'active',
+      year: 'year',
+      term: 'term',
+      active: 'active',
     },
-    prepare(selection: any) {
-      const { title, subtitle } = selection
+    prepare({ year, term, active }: any) {
       return {
-        title: title,
-        subtitle: subtitle ? 'Active' : 'Inactive',
+        title: `${year} - ${term?.toUpperCase()}`,
+        subtitle: active ? '🔴 ACTIVE TERM' : 'Inactive',
       }
     },
   },

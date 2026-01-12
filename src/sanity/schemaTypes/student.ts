@@ -14,10 +14,7 @@ export default {
       title: 'Student ID',
       type: 'string',
       description: 'The unique ID used for portal login (e.g., DET-2026-001)',
-      validation: (Rule: any) => Rule.required().custom(async (value: string, context: any) => {
-        // This helps prevent duplicate IDs during bulk imports
-        return true 
-      }),
+      validation: (Rule: any) => Rule.required(),
     },
     {
       name: 'grade',
@@ -46,4 +43,11 @@ export default {
       },
     },
   ],
+  // ADD THIS SECTION TO SHOW NAMES IN THE STUDIO
+  preview: {
+    select: {
+      title: 'fullName',
+      subtitle: 'studentId',
+    },
+  },
 }

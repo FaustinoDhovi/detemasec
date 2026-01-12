@@ -4,13 +4,6 @@ export default {
   type: 'document',
   fields: [
     {
-      name: 'transactionId',
-      title: 'Transaction ID',
-      type: 'string',
-      description: 'Unique transaction identifier (e.g., TXN20240001)',
-      validation: (Rule: any) => Rule.required(),
-    },
-    {
       name: 'student',
       title: 'Student',
       type: 'reference',
@@ -18,89 +11,55 @@ export default {
       validation: (Rule: any) => Rule.required(),
     },
     {
-      name: 'transactionDate',
-      title: 'Transaction Date',
-      type: 'datetime',
-      initialValue: () => new Date().toISOString(),
-      validation: (Rule: any) => Rule.required(),
-    },
-    {
       name: 'transactionType',
-      title: 'Transaction Type',
+      title: 'Type',
       type: 'string',
       options: {
         list: [
-          { title: 'Payment Received', value: 'payment' },
-          { title: 'Fee Charge', value: 'charge' },
-          { title: 'Refund', value: 'refund' },
-          { title: 'Adjustment', value: 'adjustment' },
-          { title: 'Waiver', value: 'waiver' },
+          { title: 'Fee Charge (Debit)', value: 'charge' },
+          { title: 'Payment Received (Credit)', value: 'payment' },
         ],
       },
       validation: (Rule: any) => Rule.required(),
     },
     {
       name: 'amount',
-      title: 'Amount',
+      title: 'Amount ($)',
       type: 'number',
       validation: (Rule: any) => Rule.required().min(0),
     },
     {
       name: 'paymentMethod',
-      title: 'Payment Method',
+      title: 'Payment Method (For Payments Only)',
       type: 'reference',
       to: [{ type: 'paymentMethod' }],
-    },
-    {
-      name: 'receiptNumber',
-      title: 'Receipt Number',
-      type: 'string',
+      hidden: ({ document }: any) => document?.transactionType !== 'payment',
     },
     {
       name: 'description',
-      title: 'Description',
-      type: 'text',
-      rows: 2,
-    },
-    {
-      name: 'academicYear',
-      title: 'Academic Year',
-      type: 'reference',
-      to: [{ type: 'academicYear' }],
-    },
-    {
-      name: 'semester',
-      title: 'Semester',
+      title: 'Notes / Description',
       type: 'string',
-      options: {
-        list: [
-          { title: 'Semester 1', value: 'sem1' },
-          { title: 'Semester 2', value: 'sem2' },
-          { title: 'Full Year', value: 'full' },
-        ],
-      },
+      initialValue: 'Termly Fees',
     },
     {
-      name: 'verified',
-      title: 'Verified',
-      type: 'boolean',
-      initialValue: false,
+      name: 'transactionDate',
+      title: 'Date',
+      type: 'date',
+      initialValue: () => new Date().toISOString().split('T')[0],
     },
   ],
   preview: {
     select: {
-      title: 'student.fullName',
-      subtitle: 'transactionId',
+      studentName: 'student.fullName',
       amount: 'amount',
       type: 'transactionType',
       date: 'transactionDate',
     },
-    prepare(selection: any) {
-      const { title, subtitle, amount, type, date } = selection
-      const formattedDate = date ? new Date(date).toLocaleDateString() : ''
+    prepare({ studentName, amount, type, date }: any) {
+      const icon = type === 'payment' ? '✅' : '💰';
       return {
-        title: `${title || 'Unknown Student'}`,
-        subtitle: `${subtitle} - ${type}: $${amount} (${formattedDate})`,
+        title: `${icon} ${studentName}`,
+        subtitle: `${type.toUpperCase()}: $${amount} - ${date}`,
       }
     },
   },

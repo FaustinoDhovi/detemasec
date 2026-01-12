@@ -1,0 +1,3 @@
+{"_type": "paymentMethod", "_id": "method-cash", "method": "Cash", "active": true}
+{"_type": "paymentMethod", "_id": "method-ecocash", "method": "EcoCash", "active": true}
+{"_type": "paymentMethod", "_id": "method-bank", "method": "Bank Transfer", "active": true}
