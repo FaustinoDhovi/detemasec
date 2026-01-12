@@ -1,8 +1,7 @@
-// C:\Users\Fau\Desktop\Websites\detema-official\sanity.config.ts - FIXED
 import { defineConfig } from 'sanity'
 import { structureTool } from 'sanity/structure'
 import { visionTool } from '@sanity/vision'
-import { schema } from './src/sanity/schemaTypes'  // FIXED: correct path
+import { schema } from './src/sanity/schemaTypes' // Points to the new folder
 
 export default defineConfig({
   name: 'default',
@@ -12,7 +11,7 @@ export default defineConfig({
   dataset: 'production',
 
   plugins: [
-    structureTool(), // This should now work
+    structureTool(), 
     visionTool()
   ],
 
