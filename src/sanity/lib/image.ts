@@ -1,11 +1,12 @@
 import createImageUrlBuilder from '@sanity/image-url'
-import { dataset, projectId } from '../env' // Fixed: Added one more level up
+import { dataset, projectId } from '../env' // Corrected: moves from lib/ up to sanity/
 
 const builder = createImageUrlBuilder({ 
-  projectId: projectId || '', 
-  dataset: dataset || '' 
+  projectId: projectId || 'ga7bqmvx', 
+  dataset: dataset || 'production' 
 })
 
 export const urlFor = (source: any) => {
+  if (!source) return null
   return builder.image(source)
 }
