@@ -1,7 +1,6 @@
 import NextAuth, { NextAuthOptions } from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 import { client } from '@/sanity/lib/client';
-import bcrypt from 'bcryptjs';
 
 export const authOptions: NextAuthOptions = {
   providers: [
@@ -9,45 +8,35 @@ export const authOptions: NextAuthOptions = {
       name: "credentials",
       credentials: {
         studentId: { label: "Student ID", type: "text" },
-        password: { label: "Password", type: "password" }
+        fullName: { label: "Full Name", type: "text" }
       },
       async authorize(credentials: any) {
-        if (!credentials?.studentId || !credentials?.password) {
+        if (!credentials?.studentId || !credentials?.fullName) {
           return null;
         }
 
-        // Query student from Sanity
-        const query = `*[_type == "student" && studentId == $studentId][0]{
+        // Query student from Sanity using both ID and Full Name
+        // We use 'lower' to make the name check case-insensitive
+        const query = `*[_type == "student" && studentId == $studentId && lower(fullName) == lower($fullName)][0]{
           _id,
           studentId,
           fullName,
-          email,
-          portalPassword
+          grade
         }`;
         
         const student = await client.fetch(query, { 
-          studentId: credentials.studentId 
+          studentId: credentials.studentId.trim(),
+          fullName: credentials.fullName.trim()
         });
 
-        if (!student || !student.portalPassword) {
-          return null;
-        }
-
-        // Compare passwords
-        const isValid = await bcrypt.compare(
-          credentials.password, 
-          student.portalPassword
-        );
-
-        if (!isValid) {
-          return null;
+        if (!student) {
+          return null; // Login fails if the ID and Name don't match
         }
 
         return {
           id: student._id,
-          studentId: student.studentId,
-          name: student.fullName,
-          email: student.email
+          name: student.studentId, // We use ID as name for the dashboard query logic
+          email: student.fullName, // Store full name here for display in the UI
         };
       }
     })
@@ -55,20 +44,22 @@ export const authOptions: NextAuthOptions = {
   callbacks: {
     async jwt({ token, user }: any) {
       if (user) {
-        token.studentId = user.studentId;
+        token.studentId = user.name;
+        token.fullName = user.email;
       }
       return token;
     },
     async session({ session, token }: any) {
       if (session?.user) {
-        (session.user as any).studentId = token.studentId;
+        (session.user as any).name = token.studentId; 
+        (session.user as any).fullName = token.fullName;
       }
       return session;
     }
   },
   pages: {
-    signIn: '/portal/login',
-    error: '/portal/login'
+    signIn: '/login',
+    error: '/login'
   },
   session: {
     strategy: "jwt"
