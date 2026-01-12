@@ -5,6 +5,9 @@ import { useRouter } from 'next/navigation';
 import { useEffect } from 'react';
 import StudentDashboard from '@/app/components/StudentDashboard';
 
+// This line is crucial to prevent the Vercel Prerender error
+export const dynamic = 'force-dynamic';
+
 export default function DashboardPage() {
   const { data: session, status } = useSession();
   const router = useRouter();
