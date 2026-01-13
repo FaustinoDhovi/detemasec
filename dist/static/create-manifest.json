@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "createdAt": "2026-01-11T16:24:13.541Z",
+  "createdAt": "2026-01-12T19:09:25.097Z",
   "workspaces": [
     {
       "name": "default",
@@ -12,8 +12,8 @@
       "mediaLibrary": {
         "enabled": false
       },
-      "schema": "ed1e01a3.create-schema.json",
-      "tools": "ba47da56.create-tools.json"
+      "schema": "c098f7d5.create-schema.json",
+      "tools": "340e9608.create-tools.json"
     }
   ],
   "studioVersion": "5.2.0"
