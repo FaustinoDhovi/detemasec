@@ -15,8 +15,8 @@ export const authOptions: NextAuthOptions = {
           return null;
         }
 
-        // Query student from Sanity using both ID and Full Name
-        // We use 'lower' to make the name check case-insensitive
+        // We use lower() on both the stored name and input name for a case-insensitive match
+        // We use an exact match for studentId as it is a unique identifier (e.g., DET-2026-001)
         const query = `*[_type == "student" && studentId == $studentId && lower(fullName) == lower($fullName)][0]{
           _id,
           studentId,
@@ -30,13 +30,14 @@ export const authOptions: NextAuthOptions = {
         });
 
         if (!student) {
-          return null; // Login fails if the ID and Name don't match
+          console.log("Login failed for:", credentials.studentId); // Helps you debug in Vercel logs
+          return null;
         }
 
         return {
           id: student._id,
-          name: student.studentId, // We use ID as name for the dashboard query logic
-          email: student.fullName, // Store full name here for display in the UI
+          name: student.studentId, // Critical: This is used for the Dashboard query
+          email: student.fullName, // Storing display name in email field
         };
       }
     })
@@ -51,6 +52,7 @@ export const authOptions: NextAuthOptions = {
     },
     async session({ session, token }: any) {
       if (session?.user) {
+        // This makes session.user.name equal to DET-2026-xxx
         (session.user as any).name = token.studentId; 
         (session.user as any).fullName = token.fullName;
       }

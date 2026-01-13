@@ -8,20 +8,27 @@ export default function LoginPage() {
   const [studentId, setStudentId] = useState('');
   const [fullName, setFullName] = useState('');
   const [error, setError] = useState('');
+  const [loading, setLoading] = useState(false);
   const router = useRouter();
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError('');
+    setLoading(true);
+
+    // Format inputs to match Sanity records
+    const formattedId = studentId.trim().toUpperCase(); // Ensures DET-2026-XXX
+    const formattedName = fullName.trim(); // Matches "Lee Abel Dzitiro"
 
     const result = await signIn('credentials', {
-      studentId: studentId.trim(),
-      fullName: fullName.trim(),
+      studentId: formattedId,
+      fullName: formattedName,
       redirect: false,
     });
 
     if (result?.error) {
-      setError('Details do not match our records. Please check your ID and Name.');
+      setError('Details do not match. Hint: Check spelling and use your full name.');
+      setLoading(false);
     } else {
       router.push('/portal/dashboard');
     }
@@ -42,7 +49,7 @@ export default function LoginPage() {
               type="text"
               value={fullName}
               onChange={(e) => setFullName(e.target.value)}
-              placeholder="As registered (e.g. Alice Moyo)"
+              placeholder="e.g. Lee Abel Dzitiro"
               className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none"
               required
             />
@@ -54,19 +61,20 @@ export default function LoginPage() {
               type="text"
               value={studentId}
               onChange={(e) => setStudentId(e.target.value)}
-              placeholder="e.g. DET-2026-001"
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none"
+              placeholder="DET-2026-001"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none uppercase"
               required
             />
           </div>
 
-          {error && <p className="text-red-500 text-sm">{error}</p>}
+          {error && <p className="text-red-500 text-sm font-medium bg-red-50 p-2 rounded">{error}</p>}
 
           <button
             type="submit"
-            className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded-lg shadow-lg transition"
+            disabled={loading}
+            className={`w-full ${loading ? 'bg-gray-400' : 'bg-blue-600 hover:bg-blue-700'} text-white font-bold py-3 rounded-lg shadow-lg transition`}
           >
-            Check My Fees
+            {loading ? 'Verifying...' : 'Check My Fees'}
           </button>
         </form>
       </div>
