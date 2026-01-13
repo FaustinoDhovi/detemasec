@@ -15,29 +15,27 @@ export const authOptions: NextAuthOptions = {
           return null;
         }
 
-        // We use lower() on both the stored name and input name for a case-insensitive match
-        // We use an exact match for studentId as it is a unique identifier (e.g., DET-2026-001)
-        const query = `*[_type == "student" && studentId == $studentId && lower(fullName) == lower($fullName)][0]{
+        // This query splits the name by space and joins it back together (no spaces)
+        // then compares it to the 'clean' name sent from the frontend.
+        const query = `*[_type == "student" && studentId == $studentId && lower(string::split(fullName, " ") >> join("")) == $cleanInputName][0]{
           _id,
           studentId,
-          fullName,
-          grade
+          fullName
         }`;
         
         const student = await client.fetch(query, { 
-          studentId: credentials.studentId.trim(),
-          fullName: credentials.fullName.trim()
+          studentId: credentials.studentId,
+          cleanInputName: credentials.fullName // This is already stripped of spaces
         });
 
         if (!student) {
-          console.log("Login failed for:", credentials.studentId); // Helps you debug in Vercel logs
           return null;
         }
 
         return {
           id: student._id,
-          name: student.studentId, // Critical: This is used for the Dashboard query
-          email: student.fullName, // Storing display name in email field
+          name: student.studentId, 
+          email: student.fullName, 
         };
       }
     })
@@ -52,7 +50,6 @@ export const authOptions: NextAuthOptions = {
     },
     async session({ session, token }: any) {
       if (session?.user) {
-        // This makes session.user.name equal to DET-2026-xxx
         (session.user as any).name = token.studentId; 
         (session.user as any).fullName = token.fullName;
       }
@@ -63,9 +60,7 @@ export const authOptions: NextAuthOptions = {
     signIn: '/login',
     error: '/login'
   },
-  session: {
-    strategy: "jwt"
-  },
+  session: { strategy: "jwt" },
   secret: process.env.NEXTAUTH_SECRET
 };
 

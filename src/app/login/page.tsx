@@ -16,18 +16,18 @@ export default function LoginPage() {
     setError('');
     setLoading(true);
 
-    // Format inputs to match Sanity records
-    const formattedId = studentId.trim().toUpperCase(); // Ensures DET-2026-XXX
-    const formattedName = fullName.trim(); // Matches "Lee Abel Dzitiro"
+    // REMOVE ALL SPACES: "Lee Abel Dzitiro" becomes "leeabeldzitiro"
+    const formattedId = studentId.trim().toUpperCase();
+    const cleanNameForLogin = fullName.replace(/\s+/g, '').toLowerCase();
 
     const result = await signIn('credentials', {
       studentId: formattedId,
-      fullName: formattedName,
+      fullName: cleanNameForLogin, 
       redirect: false,
     });
 
     if (result?.error) {
-      setError('Details do not match. Hint: Check spelling and use your full name.');
+      setError('Student not found. Check your ID and ensure you typed your full name.');
       setLoading(false);
     } else {
       router.push('/portal/dashboard');
@@ -39,7 +39,7 @@ export default function LoginPage() {
       <div className="max-w-md w-full bg-white rounded-2xl shadow-xl p-8">
         <div className="text-center mb-8">
           <h1 className="text-3xl font-bold text-gray-900">Detema Secondary</h1>
-          <p className="text-gray-500 mt-2">Student Portal Access</p>
+          <p className="text-gray-500 mt-2">Fees Portal Login</p>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-4">
@@ -47,10 +47,9 @@ export default function LoginPage() {
             <label className="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
             <input
               type="text"
-              value={fullName}
               onChange={(e) => setFullName(e.target.value)}
-              placeholder="e.g. Lee Abel Dzitiro"
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none"
+              placeholder="e.g. LeeAbelDzitiro"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg outline-none focus:ring-2 focus:ring-blue-500"
               required
             />
           </div>
@@ -59,10 +58,9 @@ export default function LoginPage() {
             <label className="block text-sm font-medium text-gray-700 mb-1">Student ID</label>
             <input
               type="text"
-              value={studentId}
               onChange={(e) => setStudentId(e.target.value)}
               placeholder="DET-2026-001"
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none uppercase"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg outline-none focus:ring-2 focus:ring-blue-500 uppercase"
               required
             />
           </div>
@@ -72,9 +70,9 @@ export default function LoginPage() {
           <button
             type="submit"
             disabled={loading}
-            className={`w-full ${loading ? 'bg-gray-400' : 'bg-blue-600 hover:bg-blue-700'} text-white font-bold py-3 rounded-lg shadow-lg transition`}
+            className={`w-full ${loading ? 'bg-gray-400' : 'bg-blue-600 hover:bg-blue-700'} text-white font-bold py-3 rounded-lg transition`}
           >
-            {loading ? 'Verifying...' : 'Check My Fees'}
+            {loading ? 'Verifying...' : 'Login to Check Fees'}
           </button>
         </form>
       </div>
