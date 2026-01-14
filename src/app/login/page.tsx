@@ -9,16 +9,19 @@ export default function LoginPage() {
   const [fullName, setFullName] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
+  const [debugInfo, setDebugInfo] = useState<any>(null);
   const router = useRouter();
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError('');
     setLoading(true);
+    setDebugInfo(null);
 
-    // REMOVE ALL SPACES: "Lee Abel Dzitiro" becomes "leeabeldzitiro"
     const formattedId = studentId.trim().toUpperCase();
     const cleanNameForLogin = fullName.replace(/\s+/g, '').toLowerCase();
+
+    console.log('Attempting login with:', { formattedId, cleanNameForLogin });
 
     const result = await signIn('credentials', {
       studentId: formattedId,
@@ -26,11 +29,18 @@ export default function LoginPage() {
       redirect: false,
     });
 
+    console.log('SignIn result:', result);
+    setDebugInfo(result);
+
     if (result?.error) {
       setError('Student not found. Check your ID and ensure you typed your full name.');
       setLoading(false);
-    } else {
+    } else if (result?.ok) {
+      console.log('Login successful, redirecting...');
       router.push('/portal/dashboard');
+    } else {
+      setError('Unknown error occurred');
+      setLoading(false);
     }
   };
 
@@ -48,10 +58,11 @@ export default function LoginPage() {
             <input
               type="text"
               onChange={(e) => setFullName(e.target.value)}
-              placeholder="e.g. LeeAbelDzitiro"
+              placeholder="e.g. natashamhlophe"
               className="w-full px-4 py-3 border border-gray-300 rounded-lg outline-none focus:ring-2 focus:ring-blue-500"
               required
             />
+            <p className="text-xs text-gray-500 mt-1">Enter name without spaces, all lowercase</p>
           </div>
 
           <div>
@@ -59,13 +70,20 @@ export default function LoginPage() {
             <input
               type="text"
               onChange={(e) => setStudentId(e.target.value)}
-              placeholder="DET-2026-001"
+              placeholder="DET-2026-004"
               className="w-full px-4 py-3 border border-gray-300 rounded-lg outline-none focus:ring-2 focus:ring-blue-500 uppercase"
               required
             />
           </div>
 
           {error && <p className="text-red-500 text-sm font-medium bg-red-50 p-2 rounded">{error}</p>}
+
+          {debugInfo && (
+            <div className="text-xs bg-gray-50 p-3 rounded">
+              <p><strong>Debug Info:</strong></p>
+              <pre className="mt-2 overflow-auto">{JSON.stringify(debugInfo, null, 2)}</pre>
+            </div>
+          )}
 
           <button
             type="submit"
