@@ -1,0 +1,471 @@
+
+
+{"_type": "student", "studentId": "DET-2026-001", "fullName": "Lee Abel Dzitiro", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-001"}
+{"_type": "student", "studentId": "DET-2026-002", "fullName": "Priscilla Mumpande", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-002"}
+{"_type": "student", "studentId": "DET-2026-003", "fullName": "Tadiwanashe B Ncube", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-003"}
+{"_type": "student", "studentId": "DET-2026-004", "fullName": "Natasha Mhlophe", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-004"}
+{"_type": "student", "studentId": "DET-2026-005", "fullName": "Rebecca Sayi", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-005"}
+{"_type": "student", "studentId": "DET-2026-006", "fullName": "Bethina Moyo", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-006"}
+{"_type": "student", "studentId": "DET-2026-007", "fullName": "Surmise Siyamatanga", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-007"}
+{"_type": "student", "studentId": "DET-2026-008", "fullName": "Sandile Ncube", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-008"}
+{"_type": "student", "studentId": "DET-2026-009", "fullName": "Amanda Dube", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-009"}
+{"_type": "student", "studentId": "DET-2026-010", "fullName": "Mpendulo Sibanda", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-010"}
+{"_type": "student", "studentId": "DET-2026-011", "fullName": "Ruvimbo Garai", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-011"}
+{"_type": "student", "studentId": "DET-2026-012", "fullName": "Nonhlanhla Sibanda", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-012"}
+{"_type": "student", "studentId": "DET-2026-013", "fullName": "Vimbai Ncube", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-013"}
+{"_type": "student", "studentId": "DET-2026-014", "fullName": "Devine Nyathi", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-014"}
+{"_type": "student", "studentId": "DET-2026-015", "fullName": "Antony Ncube", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-015"}
+{"_type": "student", "studentId": "DET-2026-016", "fullName": "Thabiso Dladla", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-016"}
+{"_type": "student", "studentId": "DET-2026-017", "fullName": "Witness Sibanda", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-017"}
+{"_type": "student", "studentId": "DET-2026-018", "fullName": "Wiseman Sibindi", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-018"}
+{"_type": "student", "studentId": "DET-2026-019", "fullName": "Andile Alex Ncube", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-019"}
+{"_type": "student", "studentId": "DET-2026-020", "fullName": "Eternal Msipha", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-020"}
+{"_type": "student", "studentId": "DET-2026-021", "fullName": "Kutadza Delight", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-021"}
+{"_type": "student", "studentId": "DET-2026-022", "fullName": "Methembe Sibanda", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-022"}
+{"_type": "student", "studentId": "DET-2026-023", "fullName": "Esnath Mkobotshe", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-023"}
+{"_type": "student", "studentId": "DET-2026-024", "fullName": "Junior M Mkhiza", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-024"}
+{"_type": "student", "studentId": "DET-2026-025", "fullName": "Mitchel Moyo", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-025"}
+{"_type": "student", "studentId": "DET-2026-026", "fullName": "Shantel Z Moyo", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-026"}
+{"_type": "student", "studentId": "DET-2026-027", "fullName": "Sibanda Mthulisi", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-027"}
+{"_type": "student", "studentId": "DET-2026-028", "fullName": "Dennis Ndlovu", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-028"}
+{"_type": "student", "studentId": "DET-2026-029", "fullName": "Nomthandazo Nyathi", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-029"}
+{"_type": "student", "studentId": "DET-2026-030", "fullName": "Rejoice Sibanda", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-030"}
+{"_type": "student", "studentId": "DET-2026-031", "fullName": "Pretty Kutsika", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-031"}
+{"_type": "student", "studentId": "DET-2026-032", "fullName": "Nqobile Tshuma", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-032"}
+{"_type": "student", "studentId": "DET-2026-033", "fullName": "Louis Moyo", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-033"}
+{"_type": "student", "studentId": "DET-2026-034", "fullName": "Johane Mwembe", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-034"}
+{"_type": "student", "studentId": "DET-2026-035", "fullName": "Beverly Ndlovu", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-035"}
+{"_type": "student", "studentId": "DET-2026-036", "fullName": "Sibanda Ebenezer", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-036"}
+{"_type": "student", "studentId": "DET-2026-037", "fullName": "Rachel Zulu", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-037"}
+{"_type": "student", "studentId": "DET-2026-038", "fullName": "Natasha Phiri", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-038"}
+{"_type": "student", "studentId": "DET-2026-039", "fullName": "Emelia F Msipha", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-039"}
+{"_type": "student", "studentId": "DET-2026-040", "fullName": "Michael Ngwenya", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-040"}
+{"_type": "student", "studentId": "DET-2026-041", "fullName": "Perseverence Phiri", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-041"}
+{"_type": "student", "studentId": "DET-2026-042", "fullName": "Sandra Masuku", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-042"}
+{"_type": "student", "studentId": "DET-2026-043", "fullName": "Princess Sibanda", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-043"}
+{"_type": "student", "studentId": "DET-2026-044", "fullName": "Richman Museva", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-044"}
+{"_type": "student", "studentId": "DET-2026-045", "fullName": "Cynthia Fox", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-045"}
+{"_type": "student", "studentId": "DET-2026-046", "fullName": "Mdumisi Mpala", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-046"}
+{"_type": "student", "studentId": "DET-2026-047", "fullName": "Meluleki Moyo", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-047"}
+{"_type": "student", "studentId": "DET-2026-048", "fullName": "Sandile Moyo", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-048"}
+{"_type": "student", "studentId": "DET-2026-049", "fullName": "Sonny Ncube", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-049"}
+{"_type": "student", "studentId": "DET-2026-050", "fullName": "Pamela Ndimamde", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-050"}
+{"_type": "student", "studentId": "DET-2026-051", "fullName": "Nozinhle Sibanda", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-051"}
+{"_type": "student", "studentId": "DET-2026-052", "fullName": "Lindokuhle Mathe", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-052"}
+{"_type": "student", "studentId": "DET-2026-053", "fullName": "Thembelihle Ndlovu", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-053"}
+{"_type": "student", "studentId": "DET-2026-054", "fullName": "Samantha Shoko", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-054"}
+{"_type": "student", "studentId": "DET-2026-055", "fullName": "Princese Ndlovu", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-055"}
+{"_type": "student", "studentId": "DET-2026-056", "fullName": "Prince Ndebele", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-056"}
+{"_type": "student", "studentId": "DET-2026-057", "fullName": "Praise Moyo", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-057"}
+{"_type": "student", "studentId": "DET-2026-058", "fullName": "Mduduzi Ndlovu", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-058"}
+{"_type": "student", "studentId": "DET-2026-059", "fullName": "Usher Ndimamde", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-059"}
+{"_type": "student", "studentId": "DET-2026-060", "fullName": "Thandolwenkosi Banda", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-060"}
+{"_type": "student", "studentId": "DET-2026-061", "fullName": "Thandazani Ndlovu", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-061"}
+{"_type": "student", "studentId": "DET-2026-062", "fullName": "Denzel Magadzire", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-062"}
+{"_type": "student", "studentId": "DET-2026-063", "fullName": "Lyron Munenge", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-063"}
+{"_type": "student", "studentId": "DET-2026-064", "fullName": "Nkosana Luphahla", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-064"}
+{"_type": "student", "studentId": "DET-2026-065", "fullName": "Tinashe Bira", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-065"}
+{"_type": "student", "studentId": "DET-2026-066", "fullName": "Silent Dube", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-066"}
+{"_type": "student", "studentId": "DET-2026-067", "fullName": "Thandeka L Ncube", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-067"}
+{"_type": "student", "studentId": "DET-2026-068", "fullName": "Noxolo Sibanda", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-068"}
+{"_type": "student", "studentId": "DET-2026-069", "fullName": "Blessing Ndebele", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-069"}
+{"_type": "student", "studentId": "DET-2026-070", "fullName": "Kwazinkosi B Moyo", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-070"}
+{"_type": "student", "studentId": "DET-2026-071", "fullName": "Presence Muleya", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-071"}
+{"_type": "student", "studentId": "DET-2026-072", "fullName": "Senzeni Muleya", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-072"}
+{"_type": "student", "studentId": "DET-2026-073", "fullName": "Nesisa Ndlovu", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-073"}
+{"_type": "student", "studentId": "DET-2026-074", "fullName": "Vuyisile Fiona Sibanda", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-074"}
+{"_type": "student", "studentId": "DET-2026-075", "fullName": "Mbongeni Ndebele", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-075"}
+{"_type": "student", "studentId": "DET-2026-076", "fullName": "Albert Mpofu", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-076"}
+{"_type": "student", "studentId": "DET-2026-077", "fullName": "Brian Sibanda", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-077"}
+{"_type": "student", "studentId": "DET-2026-078", "fullName": "Sibusiso Sibelo", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-078"}
+{"_type": "student", "studentId": "DET-2026-079", "fullName": "Justice Munkombwe", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-079"}
+{"_type": "student", "studentId": "DET-2026-080", "fullName": "Berven K Ngwerume", "grade": "f1", "classSection": "1 West", "status": "active", "_id": "DET-2026-080"}
+{"_type": "student", "studentId": "DET-2026-081", "fullName": "Alicia Dlamini", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-081"}
+{"_type": "student", "studentId": "DET-2026-082", "fullName": "Nokuthula Dube", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-082"}
+{"_type": "student", "studentId": "DET-2026-083", "fullName": "Shalom Dube", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-083"}
+{"_type": "student", "studentId": "DET-2026-084", "fullName": "Gabriella Lunga", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-084"}
+{"_type": "student", "studentId": "DET-2026-085", "fullName": "Tendai Matenga", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-085"}
+{"_type": "student", "studentId": "DET-2026-086", "fullName": "Dorcus Mkhwebu", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-086"}
+{"_type": "student", "studentId": "DET-2026-087", "fullName": "Thobile Moyo", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-087"}
+{"_type": "student", "studentId": "DET-2026-088", "fullName": "Vanessa Mpofu", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-088"}
+{"_type": "student", "studentId": "DET-2026-089", "fullName": "Valentine Ncube", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-089"}
+{"_type": "student", "studentId": "DET-2026-090", "fullName": "Thubelihle Ncube", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-090"}
+{"_type": "student", "studentId": "DET-2026-091", "fullName": "Babongile Mangolo", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-091"}
+{"_type": "student", "studentId": "DET-2026-092", "fullName": "Ntombiyokukhanya Ndlovu", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-092"}
+{"_type": "student", "studentId": "DET-2026-093", "fullName": "Gugulethu Ndlovu", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-093"}
+{"_type": "student", "studentId": "DET-2026-094", "fullName": "Trisha N Sibanda", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-094"}
+{"_type": "student", "studentId": "DET-2026-095", "fullName": "Kayla L Tshuma", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-095"}
+{"_type": "student", "studentId": "DET-2026-096", "fullName": "Sheldonia Tshuma", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-096"}
+{"_type": "student", "studentId": "DET-2026-097", "fullName": "Abatsha Khumalo", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-097"}
+{"_type": "student", "studentId": "DET-2026-098", "fullName": "Beverly Phiri", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-098"}
+{"_type": "student", "studentId": "DET-2026-099", "fullName": "Nontokozo Ndlovu", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-099"}
+{"_type": "student", "studentId": "DET-2026-100", "fullName": "Prisca Ngwenya", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-100"}
+{"_type": "student", "studentId": "DET-2026-101", "fullName": "Royce Gumbo", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-101"}
+{"_type": "student", "studentId": "DET-2026-102", "fullName": "Courage Idi", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-102"}
+{"_type": "student", "studentId": "DET-2026-103", "fullName": "Malvin Mduli", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-103"}
+{"_type": "student", "studentId": "DET-2026-104", "fullName": "Tapelo Mudimba", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-104"}
+{"_type": "student", "studentId": "DET-2026-105", "fullName": "Chiiyisyo Mumpande", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-105"}
+{"_type": "student", "studentId": "DET-2026-106", "fullName": "Shalom M Ndebele", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-106"}
+{"_type": "student", "studentId": "DET-2026-107", "fullName": "Sam Ngwenya", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-107"}
+{"_type": "student", "studentId": "DET-2026-108", "fullName": "Mbongeni Ndlovu", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-108"}
+{"_type": "student", "studentId": "DET-2026-109", "fullName": "Eugene Nkomo", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-109"}
+{"_type": "student", "studentId": "DET-2026-110", "fullName": "Dumisile Nkomo", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-110"}
+{"_type": "student", "studentId": "DET-2026-111", "fullName": "Prissly T Nyathi", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-111"}
+{"_type": "student", "studentId": "DET-2026-112", "fullName": "Thamsanqa Shishola", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-112"}
+{"_type": "student", "studentId": "DET-2026-113", "fullName": "Bright July", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-113"}
+{"_type": "student", "studentId": "DET-2026-114", "fullName": "Johnsly Ndlovu", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-114"}
+{"_type": "student", "studentId": "DET-2026-115", "fullName": "Sipho I Sibanda", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-115"}
+{"_type": "student", "studentId": "DET-2026-116", "fullName": "Wayne Phiri", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-116"}
+{"_type": "student", "studentId": "DET-2026-117", "fullName": "Dingulwazi Mudimba", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-117"}
+{"_type": "student", "studentId": "DET-2026-118", "fullName": "Lindokuhle Sibanda", "grade": "f2", "classSection": "2 East", "status": "active", "_id": "DET-2026-118"}
+{"_type": "student", "studentId": "DET-2026-119", "fullName": "Tawanda Dube", "grade": "f3", "classSection": "3 West", "status": "active", "_id": "DET-2026-119"}
+{"_type": "student", "studentId": "DET-2026-120", "fullName": "Kudzai Ncube", "grade": "f3", "classSection": "3 West", "status": "active", "_id": "DET-2026-120"}
+{"_type": "student", "studentId": "DET-2026-121", "fullName": "Rumbidzo Sibanda", "grade": "f3", "classSection": "3 West", "status": "active", "_id": "DET-2026-121"}
+{"_type": "student", "studentId": "DET-2026-122", "fullName": "Simbarashe Ndlovu", "grade": "f3", "classSection": "3 West", "status": "active", "_id": "DET-2026-122"}
+{"_type": "student", "studentId": "DET-2026-123", "fullName": "Panashe Moyo", "grade": "f3", "classSection": "3 West", "status": "active", "_id": "DET-2026-123"}
+{"_type": "student", "studentId": "DET-2026-124", "fullName": "Nyasha Dube", "grade": "f3", "classSection": "3 West", "status": "active", "_id": "DET-2026-124"}
+{"_type": "student", "studentId": "DET-2026-125", "fullName": "Tendai Ncube", "grade": "f3", "classSection": "3 West", "status": "active", "_id": "DET-2026-125"}
+{"_type": "student", "studentId": "DET-2026-126", "fullName": "Takudzwa Sibanda", "grade": "f3", "classSection": "3 West", "status": "active", "_id": "DET-2026-126"}
+{"_type": "student", "studentId": "DET-2026-127", "fullName": "Vimbai Ndlovu", "grade": "f3", "classSection": "3 West", "status": "active", "_id": "DET-2026-127"}
+{"_type": "student", "studentId": "DET-2026-128", "fullName": "Ruvimbo Moyo", "grade": "f3", "classSection": "3 West", "status": "active", "_id": "DET-2026-128"}
+{"_type": "student", "studentId": "DET-2026-129", "fullName": "Tanaka Dube", "grade": "f3", "classSection": "3 West", "status": "active", "_id": "DET-2026-129"}
+{"_type": "student", "studentId": "DET-2026-130", "fullName": "Munyaradzi Ncube", "grade": "f3", "classSection": "3 West", "status": "active", "_id": "DET-2026-130"}
+{"_type": "student", "studentId": "DET-2026-131", "fullName": "Precious Sibanda", "grade": "f3", "classSection": "3 West", "status": "active", "_id": "DET-2026-131"}
+{"_type": "student", "studentId": "DET-2026-132", "fullName": "Fortune Ndlovu", "grade": "f3", "classSection": "3 West", "status": "active", "_id": "DET-2026-132"}
+{"_type": "student", "studentId": "DET-2026-133", "fullName": "Luckmore Moyo", "grade": "f3", "classSection": "3 West", "status": "active", "_id": "DET-2026-133"}
+{"_type": "student", "studentId": "DET-2026-134", "fullName": "Obert Dube", "grade": "f3", "classSection": "3 West", "status": "active", "_id": "DET-2026-134"}
+{"_type": "student", "studentId": "DET-2026-135", "fullName": "Melissa Ncube", "grade": "f3", "classSection": "3 West", "status": "active", "_id": "DET-2026-135"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-001"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-002"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-003"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-004"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-005"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-006"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-007"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-008"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-009"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-010"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-011"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-012"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-013"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-014"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-015"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-016"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-017"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-018"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-019"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-020"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-021"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-022"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-023"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-024"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-025"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-026"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-027"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-028"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-029"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-030"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-031"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-032"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-033"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-034"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-035"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-036"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-037"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-038"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-039"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-040"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-041"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-042"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-043"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-044"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-045"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-046"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-047"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-048"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-049"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-050"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-051"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-052"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-053"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-054"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-055"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-056"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-057"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-058"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-059"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-060"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-061"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-062"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-063"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-064"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-065"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-066"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-067"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-068"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-069"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-070"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-071"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-072"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-073"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-074"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-075"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-076"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-077"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-078"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-079"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-080"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-081"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-081"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-081"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-081"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-082"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-082"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-082"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-082"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-083"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-083"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-083"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-083"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-084"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-084"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-084"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-084"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-085"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-085"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-085"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-085"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-086"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-086"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-086"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-086"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-087"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-087"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-087"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-087"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-088"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-088"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-088"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-088"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-089"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-089"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-089"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-089"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-090"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-090"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-090"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-090"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-091"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-091"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-091"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-091"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-092"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-092"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-092"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-092"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-093"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-093"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-093"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-093"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-094"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-094"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-094"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-094"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-095"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-095"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-095"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-095"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-096"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-096"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-096"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-096"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-097"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-097"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-097"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-097"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-098"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-098"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-098"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-098"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-099"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-099"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-099"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-099"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-100"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-100"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-100"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-100"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-101"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-101"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-101"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-101"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-102"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-102"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-102"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-102"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-103"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-103"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-103"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-103"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-104"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-104"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-104"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-104"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-105"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-105"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-105"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-105"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-106"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-106"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-106"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-106"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-107"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-107"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-107"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-107"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-108"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-108"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-108"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-108"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-109"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-109"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-109"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-109"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-110"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-110"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-110"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-110"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-111"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-111"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-111"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-111"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-112"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-112"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-112"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-112"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-113"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-113"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-113"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-113"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-114"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-114"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-114"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-114"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-115"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-115"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-115"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-115"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-116"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-116"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-116"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-116"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-117"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-117"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-117"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-117"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-118"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-118"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-118"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-118"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-119"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2024 Fees", "transactionDate": "2024-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-119"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2024 Fees", "transactionDate": "2024-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-119"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-119"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-119"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-119"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-120"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2024 Fees", "transactionDate": "2024-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-120"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2024 Fees", "transactionDate": "2024-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-120"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-120"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-120"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-120"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-121"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2024 Fees", "transactionDate": "2024-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-121"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2024 Fees", "transactionDate": "2024-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-121"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-121"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-121"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-121"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-122"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2024 Fees", "transactionDate": "2024-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-122"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2024 Fees", "transactionDate": "2024-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-122"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-122"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-122"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-122"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-123"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2024 Fees", "transactionDate": "2024-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-123"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2024 Fees", "transactionDate": "2024-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-123"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-123"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-123"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-123"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-124"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2024 Fees", "transactionDate": "2024-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-124"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2024 Fees", "transactionDate": "2024-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-124"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-124"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-124"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-124"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-125"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2024 Fees", "transactionDate": "2024-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-125"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2024 Fees", "transactionDate": "2024-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-125"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-125"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-125"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-125"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-126"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2024 Fees", "transactionDate": "2024-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-126"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2024 Fees", "transactionDate": "2024-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-126"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-126"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-126"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-126"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-127"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2024 Fees", "transactionDate": "2024-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-127"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2024 Fees", "transactionDate": "2024-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-127"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-127"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-127"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-127"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-128"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2024 Fees", "transactionDate": "2024-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-128"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2024 Fees", "transactionDate": "2024-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-128"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-128"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-128"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-128"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-129"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2024 Fees", "transactionDate": "2024-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-129"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2024 Fees", "transactionDate": "2024-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-129"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-129"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-129"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-129"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-130"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2024 Fees", "transactionDate": "2024-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-130"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2024 Fees", "transactionDate": "2024-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-130"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-130"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-130"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-130"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-131"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2024 Fees", "transactionDate": "2024-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-131"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2024 Fees", "transactionDate": "2024-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-131"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-131"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-131"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-131"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-132"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2024 Fees", "transactionDate": "2024-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-132"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2024 Fees", "transactionDate": "2024-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-132"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-132"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-132"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-132"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-133"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2024 Fees", "transactionDate": "2024-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-133"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2024 Fees", "transactionDate": "2024-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-133"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-133"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-133"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-133"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-134"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2024 Fees", "transactionDate": "2024-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-134"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2024 Fees", "transactionDate": "2024-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-134"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-134"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-134"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-134"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-135"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2024 Fees", "transactionDate": "2024-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-135"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2024 Fees", "transactionDate": "2024-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-135"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2025 Fees", "transactionDate": "2025-01-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-135"}, "transactionType": "charge", "amount": 75, "description": "Term 2 2025 Fees", "transactionDate": "2025-05-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-135"}, "transactionType": "charge", "amount": 75, "description": "Term 3 2025 Fees", "transactionDate": "2025-09-15"}
+{"_type": "feeTransaction", "student": {"_type": "reference", "_ref": "DET-2026-135"}, "transactionType": "charge", "amount": 75, "description": "Term 1 2026 Fees", "transactionDate": "2026-01-15"}

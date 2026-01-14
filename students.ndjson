@@ -1,100 +1,120 @@
-{"_type": "student", "fullName": "Alice Moyo", "studentId": "DET-2026-001", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Blessing Ndlovu", "studentId": "DET-2026-002", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Chipo Mushore", "studentId": "DET-2026-003", "grade": "f2", "status": "active"}
-{"_type": "student", "fullName": "Daniel Gumbo", "studentId": "DET-2026-004", "grade": "f3", "status": "active"}
-{"_type": "student", "fullName": "Ephraim Sibanda", "studentId": "DET-2026-005", "grade": "f4", "status": "active"}
-{"_type": "student", "fullName": "Farai Chiremba", "studentId": "DET-2026-006", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Grace Marunda", "studentId": "DET-2026-007", "grade": "f2", "status": "active"}
-{"_type": "student", "fullName": "Harris Mpofu", "studentId": "DET-2026-008", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Irene Dube", "studentId": "DET-2026-009", "grade": "f3", "status": "active"}
-{"_type": "student", "fullName": "John Ncube", "studentId": "DET-2026-010", "grade": "f4", "status": "active"}
-{"_type": "student", "fullName": "Kumbirai Moyo", "studentId": "DET-2026-011", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Linda Sibanda", "studentId": "DET-2026-012", "grade": "f2", "status": "active"}
-{"_type": "student", "fullName": "Mutambara Nyoni", "studentId": "DET-2026-013", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Nomvula Ndlovu", "studentId": "DET-2026-014", "grade": "f3", "status": "active"}
-{"_type": "student", "fullName": "Obadiah Dube", "studentId": "DET-2026-015", "grade": "f4", "status": "active"}
-{"_type": "student", "fullName": "Patience Masuku", "studentId": "DET-2026-016", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Rumbidzo Chikwakwa", "studentId": "DET-2026-017", "grade": "f2", "status": "active"}
-{"_type": "student", "fullName": "Samuel Tshuma", "studentId": "DET-2026-018", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Thandiwe Gumbo", "studentId": "DET-2026-019", "grade": "f3", "status": "active"}
-{"_type": "student", "fullName": "Unity Nkomo", "studentId": "DET-2026-020", "grade": "f4", "status": "active"}
-{"_type": "student", "fullName": "Vusa Mpofu", "studentId": "DET-2026-021", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Walter Marondera", "studentId": "DET-2026-022", "grade": "f2", "status": "active"}
-{"_type": "student", "fullName": "Xolisani Moyo", "studentId": "DET-2026-023", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Yvonne Ndlovu", "studentId": "DET-2026-024", "grade": "f3", "status": "active"}
-{"_type": "student", "fullName": "Zanele Sibanda", "studentId": "DET-2026-025", "grade": "f4", "status": "active"}
-{"_type": "student", "fullName": "Anesu Mutekedza", "studentId": "DET-2026-026", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Brian Gweshe", "studentId": "DET-2026-027", "grade": "f2", "status": "active"}
-{"_type": "student", "fullName": "Cecilia Chirimuuta", "studentId": "DET-2026-028", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "David Zhou", "studentId": "DET-2026-029", "grade": "f3", "status": "active"}
-{"_type": "student", "fullName": "Elizabeth Manyika", "studentId": "DET-2026-030", "grade": "f4", "status": "active"}
-{"_type": "student", "fullName": "Francis Mapuranga", "studentId": "DET-2026-031", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Gertrude Dongo", "studentId": "DET-2026-032", "grade": "f2", "status": "active"}
-{"_type": "student", "fullName": "Hebert Chinotimba", "studentId": "DET-2026-033", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Janet Mpofu", "studentId": "DET-2026-034", "grade": "f3", "status": "active"}
-{"_type": "student", "fullName": "Kelvin Ndebele", "studentId": "DET-2026-035", "grade": "f4", "status": "active"}
-{"_type": "student", "fullName": "Lincoln Mlambo", "studentId": "DET-2026-036", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Mabel Ncube", "studentId": "DET-2026-037", "grade": "f2", "status": "active"}
-{"_type": "student", "fullName": "Nelson Dzviti", "studentId": "DET-2026-038", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Olivia Chitekedza", "studentId": "DET-2026-039", "grade": "f3", "status": "active"}
-{"_type": "student", "fullName": "Peter Mhike", "studentId": "DET-2026-040", "grade": "f4", "status": "active"}
-{"_type": "student", "fullName": "Queen Sithole", "studentId": "DET-2026-041", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Rutendo Bhebhe", "studentId": "DET-2026-042", "grade": "f2", "status": "active"}
-{"_type": "student", "fullName": "Simbarashe Mavhunga", "studentId": "DET-2026-043", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Tinotenda Ruzvidzo", "studentId": "DET-2026-044", "grade": "f3", "status": "active"}
-{"_type": "student", "fullName": "Unathi Dhlamini", "studentId": "DET-2026-045", "grade": "f4", "status": "active"}
-{"_type": "student", "fullName": "Vimbai Chirisa", "studentId": "DET-2026-046", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Willard Chindongo", "studentId": "DET-2026-047", "grade": "f2", "status": "active"}
-{"_type": "student", "fullName": "Xolani Ndou", "studentId": "DET-2026-048", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Yolanda Madzima", "studentId": "DET-2026-049", "grade": "f3", "status": "active"}
-{"_type": "student", "fullName": "Zacharia Kaseke", "studentId": "DET-2026-050", "grade": "f4", "status": "active"}
-{"_type": "student", "fullName": "Audrey Sibanda", "studentId": "DET-2026-051", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Bennard Nkomazana", "studentId": "DET-2026-052", "grade": "f2", "status": "active"}
-{"_type": "student", "fullName": "Carol Dube", "studentId": "DET-2026-053", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Danai Moyo", "studentId": "DET-2026-054", "grade": "f3", "status": "active"}
-{"_type": "student", "fullName": "Edson Mpofu", "studentId": "DET-2026-055", "grade": "f4", "status": "active"}
-{"_type": "student", "fullName": "Fadzai Ncube", "studentId": "DET-2026-056", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Gamuchirai Ndlovu", "studentId": "DET-2026-057", "grade": "f2", "status": "active"}
-{"_type": "student", "fullName": "Harrison Gumbo", "studentId": "DET-2026-058", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Ivan Sibanda", "studentId": "DET-2026-059", "grade": "f3", "status": "active"}
-{"_type": "student", "fullName": "Joyce Makuni", "studentId": "DET-2026-060", "grade": "f4", "status": "active"}
-{"_type": "student", "fullName": "Kudzai Mhungu", "studentId": "DET-2026-061", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Lloyd Chikuni", "studentId": "DET-2026-062", "grade": "f2", "status": "active"}
-{"_type": "student", "fullName": "Margret Dzvimbo", "studentId": "DET-2026-063", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Nhlanhla Nkala", "studentId": "DET-2026-064", "grade": "f3", "status": "active"}
-{"_type": "student", "fullName": "Oscar Tswayo", "studentId": "DET-2026-065", "grade": "f4", "status": "active"}
-{"_type": "student", "fullName": "Pamela Mhende", "studentId": "DET-2026-066", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Quincy Mudimu", "studentId": "DET-2026-067", "grade": "f2", "status": "active"}
-{"_type": "student", "fullName": "Rudo Ncube", "studentId": "DET-2026-068", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Saids Ndou", "studentId": "DET-2026-069", "grade": "f3", "status": "active"}
-{"_type": "student", "fullName": "Tapiwa Magade", "studentId": "DET-2026-070", "grade": "f4", "status": "active"}
-{"_type": "student", "fullName": "Upenyu Majuru", "studentId": "DET-2026-071", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Vimbainashe Moyo", "studentId": "DET-2026-072", "grade": "f2", "status": "active"}
-{"_type": "student", "fullName": "Washington Banda", "studentId": "DET-2026-073", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Xavier Muchemwa", "studentId": "DET-2026-074", "grade": "f3", "status": "active"}
-{"_type": "student", "fullName": "Yadah Mupunga", "studentId": "DET-2026-075", "grade": "f4", "status": "active"}
-{"_type": "student", "fullName": "Zenani Dlamini", "studentId": "DET-2026-076", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Amos Chinodakufa", "studentId": "DET-2026-077", "grade": "f2", "status": "active"}
-{"_type": "student", "fullName": "Belinda Hwende", "studentId": "DET-2026-078", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Clifford Mhizha", "studentId": "DET-2026-079", "grade": "f3", "status": "active"}
-{"_type": "student", "fullName": "Desire Mtisi", "studentId": "DET-2026-080", "grade": "f4", "status": "active"}
-{"_type": "student", "fullName": "Ella Sibanda", "studentId": "DET-2026-081", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Farirai Goredema", "studentId": "DET-2026-082", "grade": "f2", "status": "active"}
-{"_type": "student", "fullName": "Godwin Machingura", "studentId": "DET-2026-083", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Hazel Dube", "studentId": "DET-2026-084", "grade": "f3", "status": "active"}
-{"_type": "student", "fullName": "Innocent Mpofu", "studentId": "DET-2026-085", "grade": "f4", "status": "active"}
-{"_type": "student", "fullName": "Judith Nkomo", "studentId": "DET-2026-086", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Kudzai Chirongo", "studentId": "DET-2026-087", "grade": "f2", "status": "active"}
-{"_type": "student", "fullName": "Lovemore Mataruse", "studentId": "DET-2026-088", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Miriam Chifamba", "studentId": "DET-2026-089", "grade": "f3", "status": "active"}
-{"_type": "student", "fullName": "Newton Dzirutwe", "studentId": "DET-2026-090", "grade": "f4", "status": "active"}
-{"_type": "student", "fullName": "Nomsa Ncube", "studentId": "DET-2026-091", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Praise Moyo", "studentId": "DET-2026-092", "grade": "f2", "status": "active"}
-{"_type": "student", "fullName": "Rachel Ndlovu", "studentId": "DET-2026-093", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Shadreck Dube", "studentId": "DET-2026-094", "grade": "f3", "status": "active"}
-{"_type": "student", "fullName": "Tariro Sibanda", "studentId": "DET-2026-095", "grade": "f4", "status": "active"}
-{"_type": "student", "fullName": "Unity Matongo", "studentId": "DET-2026-096", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Violet Ncube", "studentId": "DET-2026-097", "grade": "f2", "status": "active"}
-{"_type": "student", "fullName": "Wisdom Mpariwa", "studentId": "DET-2026-098", "grade": "f1", "status": "active"}
-{"_type": "student", "fullName": "Xolani Zondo", "studentId": "DET-2026-099", "grade": "f3", "status": "active"}
-{"_type": "student", "fullName": "Yvonne Kaseke", "studentId": "DET-2026-100", "grade": "f4", "status": "active"}
+
+
+{"_type": "student", "studentId": "DET-2026-001", "fullName": "Lee Abel Dzitiro", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-002", "fullName": "Priscilla Mumpande", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-003", "fullName": "Tadiwanashe B Ncube", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-004", "fullName": "Natasha Mhlophe", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-005", "fullName": "Rebecca Sayi", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-006", "fullName": "Bethina Moyo", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-007", "fullName": "Surmise Siyamatanga", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-008", "fullName": "Sandile Ncube", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-009", "fullName": "Amanda Dube", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-010", "fullName": "Mpendulo Sibanda", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-011", "fullName": "Ruvimbo Garai", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-012", "fullName": "Nonhlanhla Sibanda", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-013", "fullName": "Vimbai Ncube", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-014", "fullName": "Devine Nyathi", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-015", "fullName": "Antony Ncube", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-016", "fullName": "Thabiso Dladla", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-017", "fullName": "Witness Sibanda", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-018", "fullName": "Wiseman Sibindi", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-019", "fullName": "Andile Alex Ncube", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-020", "fullName": "Eternal Msipha", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-021", "fullName": "Kutadza Delight", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-022", "fullName": "Methembe Sibanda", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-023", "fullName": "Esnath Mkobotshe", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-024", "fullName": "Junior M Mkhiza", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-025", "fullName": "Mitchel Moyo", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-026", "fullName": "Shantel Z Moyo", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-027", "fullName": "Sibanda Mthulisi", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-028", "fullName": "Dennis Ndlovu", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-029", "fullName": "Nomthandazo Nyathi", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-030", "fullName": "Rejoice Sibanda", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-031", "fullName": "Pretty Kutsika", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-032", "fullName": "Nqobile Tshuma", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-033", "fullName": "Louis Moyo", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-034", "fullName": "Johane Mwembe", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-035", "fullName": "Beverly Ndlovu", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-036", "fullName": "Sibanda Ebenezer", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-037", "fullName": "Rachel Zulu", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-038", "fullName": "Natasha Phiri", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-039", "fullName": "Emelia F Msipha", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-040", "fullName": "Michael Ngwenya", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-041", "fullName": "Perseverence Phiri", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-042", "fullName": "Sandra Masuku", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-043", "fullName": "Princess Sibanda", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-044", "fullName": "Richman Museva", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-045", "fullName": "Cynthia Fox", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-046", "fullName": "Mdumisi Mpala", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-047", "fullName": "Meluleki Moyo", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-048", "fullName": "Sandile Moyo", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-049", "fullName": "Sonny Ncube", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-050", "fullName": "Pamela Ndimamde", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-051", "fullName": "Nozinhle Sibanda", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-052", "fullName": "Lindokuhle Mathe", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-053", "fullName": "Thembelihle Ndlovu", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-054", "fullName": "Samantha Shoko", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-055", "fullName": "Princese Ndlovu", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-056", "fullName": "Prince Ndebele", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-057", "fullName": "Praise Moyo", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-058", "fullName": "Mduduzi Ndlovu", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-059", "fullName": "Usher Ndimamde", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-060", "fullName": "Thandolwenkosi Banda", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-061", "fullName": "Thandazani Ndlovu", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-062", "fullName": "Denzel Magadzire", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-063", "fullName": "Lyron Munenge", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-064", "fullName": "Nkosana Luphahla", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-065", "fullName": "Tinashe Bira", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-066", "fullName": "Silent Dube", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-067", "fullName": "Thandeka L Ncube", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-068", "fullName": "Noxolo Sibanda", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-069", "fullName": "Blessing Ndebele", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-070", "fullName": "Kwazinkosi B Moyo", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-071", "fullName": "Presence Muleya", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-072", "fullName": "Senzeni Muleya", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-073", "fullName": "Nesisa Ndlovu", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-074", "fullName": "Vuyisile Fiona Sibanda", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-075", "fullName": "Mbongeni Ndebele", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-076", "fullName": "Albert Mpofu", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-077", "fullName": "Brian Sibanda", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-078", "fullName": "Sibusiso Sibelo", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-079", "fullName": "Justice Munkombwe", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-080", "fullName": "Berven K Ngwerume", "grade": "f1", "classSection": "1 West", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-081", "fullName": "Alicia Dlamini", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-082", "fullName": "Nokuthula Dube", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-083", "fullName": "Shalom Dube", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-084", "fullName": "Gabriella Lunga", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-085", "fullName": "Tendai Matenga", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-086", "fullName": "Dorcus Mkhwebu", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-087", "fullName": "Thobile Moyo", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-088", "fullName": "Vanessa Mpofu", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-089", "fullName": "Valentine Ncube", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-090", "fullName": "Thubelihle Ncube", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-091", "fullName": "Babongile Mangolo", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-092", "fullName": "Ntombiyokukhanya Ndlovu", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-093", "fullName": "Gugulethu Ndlovu", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-094", "fullName": "Trisha N Sibanda", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-095", "fullName": "Kayla L Tshuma", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-096", "fullName": "Sheldonia Tshuma", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-097", "fullName": "Abatsha Khumalo", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-098", "fullName": "Beverly Phiri", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-099", "fullName": "Nontokozo Ndlovu", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-100", "fullName": "Prisca Ngwenya", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-101", "fullName": "Royce Gumbo", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-102", "fullName": "Courage Idi", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-103", "fullName": "Malvin Mduli", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-104", "fullName": "Tapelo Mudimba", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-105", "fullName": "Chiiyisyo Mumpande", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-106", "fullName": "Shalom M Ndebele", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-107", "fullName": "Sam Ngwenya", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-108", "fullName": "Mbongeni Ndlovu", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-109", "fullName": "Eugene Nkomo", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-110", "fullName": "Dumisile Nkomo", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-111", "fullName": "Prissly T Nyathi", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-112", "fullName": "Thamsanqa Shishola", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-113", "fullName": "Bright July", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-114", "fullName": "Johnsly Ndlovu", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-115", "fullName": "Sipho I Sibanda", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-116", "fullName": "Wayne Phiri", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-117", "fullName": "Dingulwazi Mudimba", "grade": "f2", "classSection": "2 East", "status": "active"}
+{"_type": "student", "studentId": "DET-2026-118", "fullName": "Lindokuhle Sibanda", "grade": "f2", "classSection": "2 East", "status": "active"}
