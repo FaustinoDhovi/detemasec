@@ -12,31 +12,51 @@ export const authOptions: NextAuthOptions = {
       },
       async authorize(credentials: any) {
         if (!credentials?.studentId || !credentials?.fullName) {
+          console.log('❌ Missing credentials');
           return null;
         }
 
-        // This query splits the name by space and joins it back together (no spaces)
-        // then compares it to the 'clean' name sent from the frontend.
-        const query = `*[_type == "student" && studentId == $studentId && lower(string::split(fullName, " ") >> join("")) == $cleanInputName][0]{
-          _id,
-          studentId,
-          fullName
-        }`;
-        
-        const student = await client.fetch(query, { 
-          studentId: credentials.studentId,
-          cleanInputName: credentials.fullName // This is already stripped of spaces
-        });
+        try {
+          const query = `*[_type == "student" && studentId == $studentId][0]{
+            _id,
+            studentId,
+            fullName
+          }`;
+          
+          console.log('🔍 Searching for student:', credentials.studentId);
+          
+          const student = await client.fetch(query, { 
+            studentId: credentials.studentId
+          });
 
-        if (!student) {
+          console.log('📊 Student found:', student);
+
+          if (!student) {
+            console.log('❌ No student found with ID:', credentials.studentId);
+            return null;
+          }
+
+          // Compare names (remove spaces, case insensitive)
+          const cleanDbName = student.fullName.replace(/\s+/g, '').toLowerCase();
+          const cleanInputName = credentials.fullName.toLowerCase();
+          
+          console.log('🔄 Comparing names:', cleanDbName, '===', cleanInputName);
+
+          if (cleanDbName === cleanInputName) {
+            console.log('✅ Authentication successful');
+            return {
+              id: student._id,
+              name: student.studentId, 
+              email: student.fullName, 
+            };
+          }
+
+          console.log('❌ Name mismatch');
+          return null;
+        } catch (error) {
+          console.error('💥 Auth error:', error);
           return null;
         }
-
-        return {
-          id: student._id,
-          name: student.studentId, 
-          email: student.fullName, 
-        };
       }
     })
   ],
