@@ -18,7 +18,7 @@ export default {
     },
     {
       name: 'grade',
-      title: 'Grade / Class',
+      title: 'Grade / Form',
       type: 'string',
       options: {
         list: [
@@ -28,6 +28,26 @@ export default {
           { title: 'Form 4', value: 'f4' },
         ],
       },
+      validation: (Rule: any) => Rule.required(),
+    },
+    {
+      name: 'classSection',
+      title: 'Class / Arms',
+      type: 'string',
+      description: 'e.g., East, West, or A, B, C',
+    },
+    {
+      name: 'gender',
+      title: 'Gender',
+      type: 'string',
+      options: {
+        list: ['Male', 'Female'],
+      },
+    },
+    {
+      name: 'dateOfBirth',
+      title: 'Date of Birth',
+      type: 'date',
     },
     {
       name: 'status',
@@ -43,11 +63,17 @@ export default {
       },
     },
   ],
-  // ADD THIS SECTION TO SHOW NAMES IN THE STUDIO
   preview: {
     select: {
       title: 'fullName',
       subtitle: 'studentId',
+      grade: 'grade',
+    },
+    prepare({ title, subtitle, grade }: any) {
+      return {
+        title,
+        subtitle: `${grade?.toUpperCase()} | ID: ${subtitle}`,
+      }
     },
   },
 }

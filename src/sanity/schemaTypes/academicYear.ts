@@ -16,9 +16,9 @@ export default {
       type: 'string',
       options: {
         list: [
-          { title: 'Term 1', value: 'term1' },
-          { title: 'Term 2', value: 'term2' },
-          { title: 'Term 3', value: 'term3' },
+          { title: 'Term 1 (Starts Jan)', value: 'term1' },
+          { title: 'Term 2 (Starts May)', value: 'term2' },
+          { title: 'Term 3 (Starts Sep)', value: 'term3' },
         ],
       },
       validation: (Rule: any) => Rule.required(),
@@ -28,6 +28,7 @@ export default {
       title: 'Standard Tuition Fee ($)',
       type: 'number',
       initialValue: 75,
+      description: 'The standard fee charged at the start of each term.',
       validation: (Rule: any) => Rule.required(),
     },
     {
@@ -46,7 +47,7 @@ export default {
     prepare({ year, term, active }: any) {
       return {
         title: `${year} - ${term?.toUpperCase()}`,
-        subtitle: active ? '🔴 ACTIVE TERM' : 'Inactive',
+        subtitle: active ? '🔴 CURRENT ACTIVE TERM' : 'Previous/Future Term',
       }
     },
   },
