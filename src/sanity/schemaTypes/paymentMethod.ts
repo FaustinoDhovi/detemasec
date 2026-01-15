@@ -8,6 +8,18 @@ export default {
       title: 'Payment Method',
       type: 'string',
       validation: (Rule: any) => Rule.required(),
+      options: {
+        list: [
+          { title: 'Cash', value: 'cash' },
+          { title: 'Ecocash', value: 'ecocash' },
+          { title: 'Bank Transfer', value: 'bank_transfer' },
+          { title: 'Swipe (USD)', value: 'usd_swipe' },
+          { title: 'Swipe (ZWG)', value: 'zwg_swipe' },
+          { title: 'Mobile Money', value: 'mobile_money' },
+          { title: 'Cheque', value: 'cheque' },
+          { title: 'Scholarship', value: 'scholarship' }
+        ]
+      }
     },
     {
       name: 'description',
@@ -26,6 +38,13 @@ export default {
     select: {
       title: 'method',
       subtitle: 'description',
+      active: 'active'
     },
+    prepare({ title, subtitle, active }: any) {
+      return {
+        title: `${active ? '✅' : '❌'} ${title}`,
+        subtitle: subtitle || 'No description'
+      }
+    }
   },
 }
