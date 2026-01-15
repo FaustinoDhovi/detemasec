@@ -20,7 +20,11 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@app/*": ["./src/app/*"],
+      "@components/*": ["./src/app/components/*"],
+      "@dashboard/*": ["./src/app/dashboard/*"],
+      "@sanity/*": ["./src/sanity/*"]
     }
   },
   "include": [
