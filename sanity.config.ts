@@ -1,8 +1,8 @@
 import { defineConfig } from 'sanity'
 import { structureTool } from 'sanity/structure'
 import { visionTool } from '@sanity/vision'
-import { schemaTypes } from './schema'
-import { structure } from './structure' // Import your structure
+import { schema } from './src/sanity/schemaTypes'  // ✅ Import 'schema' not 'schemaTypes'
+import { structure } from './src/sanity/structure'
 
 export default defineConfig({
   name: 'default',
@@ -11,11 +11,9 @@ export default defineConfig({
   dataset: 'production',
   plugins: [
     structureTool({
-      structure, // Use your custom structure
+      structure,
     }),
     visionTool(),
   ],
-  schema: {
-    types: schemaTypes,
-  },
+  schema, // ✅ Use the imported 'schema' object
 })
