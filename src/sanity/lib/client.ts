@@ -5,5 +5,6 @@ export const client = createClient({
   dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || 'production',
   apiVersion: '2024-01-01',
   useCdn: false,
-  token: process.env.skHZooKtZkMPzK6PR1z42JTZBuPy0iDEB5zIK2kdtE6gR5dL8uZWh5EtvvVpfmC2OXSYBh2caRVDyRbAgeyGxnHz88UjbVoB0yY4KRk0JZ86v8vJlC445H6vSmmUhYjcJrVV5I2SCrdJwxanN8jr0qljtJjWH7pbUdTYMKj7p51fnnEAZrEH
+  // ✅ Now properly using environment variable
+  token: process.env.NEXT_PUBLIC_SANITY_TOKEN,
 })
